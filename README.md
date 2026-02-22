@@ -7,50 +7,56 @@ Month: February 2026
 
 📌 Overview
 
-This project builds a machine learning regression model to predict Boston house prices using features such as crime rate, number of rooms, tax rate, and other socio-economic factors.
+Developed a machine learning regression model to predict Boston house prices.
 
-The objective is to compare multiple regression models and identify the most accurate one.
+Utilized socio-economic and housing-related features such as crime rate, number of rooms, tax rate, etc.
+
+Compared multiple regression algorithms to determine the most accurate model.
 
 ⚙️ Workflow
 
-Data Cleaning & Missing Value Handling
+✔️ Data Cleaning & Missing Value Handling
 
-Outlier Removal using IQR
+✔️ Outlier Removal using IQR Method
 
-Feature Scaling using StandardScaler
+✔️ Feature Scaling using StandardScaler
 
-Train-Test Split (80-20)
+✔️ Train-Test Split (80% Training, 20% Testing)
 
-Model Training & Evaluation
+✔️ Model Training & Performance Evaluation
 
-Hyperparameter Tuning using GridSearchCV
+✔️ Hyperparameter Tuning using GridSearchCV
 
-🤖 Models Used
+🤖 Models Implemented
 
-Linear Regression
+🔹 Linear Regression
 
-Decision Tree Regressor
+🔹 Decision Tree Regressor
 
-Random Forest Regressor
+🔹 Random Forest Regressor
 
 📊 Evaluation Metrics
 
-Mean Squared Error (MSE)
+📌 Mean Squared Error (MSE)
 
-Root Mean Squared Error (RMSE)
+📌 Root Mean Squared Error (RMSE)
 
-R² Score
+📌 R² Score
 
 🔎 Best Model Performance
 
-Random Forest (Tuned)
-R² Score: 0.6659
+🏆 Random Forest Regressor (Tuned)
+
+📈 R² Score: 0.6659
 
 🛠️ Technologies Used
 
-Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Google Colab
+Python ,Pandas, NumPy, Matplotlib ,Seaborn , Scikit-learn , Google Colab
 
 📌 Conclusion
 
-Random Forest Regressor achieved the best performance after hyperparameter tuning.
-The project demonstrates a complete regression pipeline from data preprocessing to model optimization.
+Random Forest achieved the highest performance after hyperparameter tuning.
+
+The project demonstrates a complete end-to-end regression pipeline.
+
+Provides a practical foundation for real-world housing price prediction models.
